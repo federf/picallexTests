@@ -1,0 +1,66 @@
+.form_body, .contact_body    {
+    background-image: url('img/ContactUsBackground.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.headers {
+    text-align: center;
+}
+
+textarea {
+    background-color: rgb(246, 255, 124);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: left;
+    padding-left: 550px;
+    font-weight: bold;
+}
+
+.text_input {
+    background-color: rgb(246, 255, 124);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.buttonHolder {
+    text-align: left;
+    padding-left: 140px;;
+}
+
+#submit {
+    background-color: #4CAF50;;
+    border-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:valid {
+    border: 1px solid green;
+}
+
+.error {
+    padding: 0;
+    color:red;
+    border-radius: 0 0 5px 5px;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  
+.error.active {
+    padding: 0.3em;
+}
